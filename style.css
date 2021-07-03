@@ -24,7 +24,7 @@ body {
     url("images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   background-position: right 50vw bottom 40vh, left 50vw top 40vh;
-  background-size: cover; 
+  background-size: cover;
   background-color: var(--dark-cyan);
   height: 100vh;
   display: flex;
@@ -33,83 +33,6 @@ body {
   align-items: center;
   position: relative;
 }
-/* 
-.bg-bottom {
-  position: absolute;
-  width: 968px;
-  height: 968px;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
-} */
-
-/* .bg-bottom::before {  
-  transform: translate(750px,600px);  
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: url(./images/bg-pattern-bottom.svg) center/cover no-repeat;
-  border-radius: 50%;
-  background-color:red;
-} */
-/* 
- .bg-top {
-  background: url(./images/bg-pattern-top.svg) center/cover no-repeat;
-  position: absolute;
-  top: 0px;
-  bottom: 30vh;
-  left: 0;
-  right: 50vw;
-  height: 978px;
-  width: 978px;
-  border-radius: 489px;
-  transform: translate(-20%,-60%);
-  overflow: hidden;
-} */
-
-/* .bg-bottom{
-  position: absolute;
-  width: 968px;
-  height: 968px;
-  overflow: hidden;
-  bottom: 0;
-  right: 0;
-}  */
-
-/* .bg-bottom::before{
-  transform: translate(25%,62%);
-  position: absolute;
-  content: '';
-  height: 100%;
-  width: 100%;
-  background: url(./images/bg-pattern-bottom.svg) center/cover no-repeat;
-  /* background-color: violet; 
-  border-radius: 50%;
-} */
-
-/* .bg-bottom {
-  
-  position: absolute;
-  top: 0px;
-  bottom: 30vh;
-  left: 0;
-  right: 50vw;
-  height: 978px;
-  width: 978px;
-  border-radius: 489px;
-  overflow: hidden;
-}  
-
-.bg-bottom::before{
-  height: 100%;
-  width: 100%;
-  content: '';
-  background-color: yellow;
-  transform: translate(70%,40%); 
-  overflow: hidden;
-} */
-
 .card {
   height: 375px;
   width: 325px;
@@ -222,24 +145,4 @@ body {
   .card {
     width: 350px;
   }
-
-  /* .bg-bottom {
-    position: absolute;
-    width: 968px;
-    height: 968px;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-  }
-
-  .bg-bottom::before {  
-    transform: translate(16vw,85vh);  
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: url(./images/bg-pattern-bottom.svg) center/cover no-repeat;
-    border-radius: 50%;
-    background-color:var(--dark-cyan)
-  } */
 }
